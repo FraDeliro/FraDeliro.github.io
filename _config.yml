@@ -29,7 +29,8 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: true # set to true to show excerpts on the homepage
 
 # Build settings
-theme: texture
+# theme: texture // enable this for test the site on develop
+remote_theme: thelehhman/texture
 
 sass:
   sass_dir: _sass
@@ -50,6 +51,7 @@ texture:
     rss: rss
 
 plugins:
+  - jekyll-seo-tag
   - jekyll-feed
 
 # Exclude from processing.
